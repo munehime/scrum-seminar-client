@@ -1,7 +1,7 @@
 import "./Header.css";
 import Name from "./Name";
 import React from "react";
-
+import AvatarButton from "./AvatarButton";
 
 function Header() {
   return (
@@ -31,7 +31,7 @@ function Header() {
           </div>
         </div>
         <div className="header-right">
-          
+          <AvatarButton/>
         </div>
       </div>
 
@@ -86,7 +86,7 @@ function Header() {
                 </div>
               </li>
               <li>
-                SHOP
+                DASHBOARD
                 <div className="sub-menu-1">
                   <ul>
                     Style
@@ -109,7 +109,7 @@ function Header() {
                 </div>
               </li>
               <li>
-                PRODUCT
+               FINANCE
                 <div className="sub-menu-1">
                   <ul>
                     Style
@@ -132,7 +132,7 @@ function Header() {
                 </div>
               </li>
               <li>
-                BLOG
+                DOCUMENT
                 <div className="sub-menu-1">
                   <ul>
                     Style
@@ -155,7 +155,7 @@ function Header() {
                 </div>
               </li>
               <li>
-                PAGES
+                REPORT
                 <div className="sub-menu-1">
                   <ul>
                     Style

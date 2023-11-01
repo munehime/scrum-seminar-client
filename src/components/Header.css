@@ -156,27 +156,10 @@
   }
   
   
-  .menu-bar ul li:hover .sub-menu-1 {
-    display: flex;
-    position: absolute;   
-    margin-top: 65px;
-    margin-left: -50px;
-    font-family: "Jost", sans-serif;
+  .menu-bar:hover .sub-menu-1 {
+    background-color: yellow;
   }
   
-  .menu-bar ul li:hover .sub-menu-1 ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    flex-direction: column; 
-    padding: 10px;
-    margin: 10px;
-  }
-  
-  .menu-bar ul li:hover .sub-menu-1 ul li{
-    text-align: left;
-    
-  }
   
   
   

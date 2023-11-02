@@ -1,0 +1,11 @@
+.status-pending {
+    color: yellow;
+}
+
+.status-accepted {
+    color: green;
+}
+
+.status-rejected {
+    color: red;
+}

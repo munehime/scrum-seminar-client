@@ -87,6 +87,7 @@ function Header() {
               </li>
               <li>
                 DASHBOARD
+                SHOP
                 <div className="sub-menu-1">
                   <ul>
                     Style
@@ -110,6 +111,7 @@ function Header() {
               </li>
               <li>
                FINANCE
+                PRODUCT
                 <div className="sub-menu-1">
                   <ul>
                     Style
@@ -133,6 +135,7 @@ function Header() {
               </li>
               <li>
                 DOCUMENT
+                BLOG
                 <div className="sub-menu-1">
                   <ul>
                     Style
@@ -156,6 +159,7 @@ function Header() {
               </li>
               <li>
                 REPORT
+                PAGES
                 <div className="sub-menu-1">
                   <ul>
                     Style

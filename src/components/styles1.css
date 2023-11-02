@@ -1,0 +1,125 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: white ;
+  }
+  
+  /* Style the form container */
+  .App-header {
+    background-color: rgb(231, 225, 225);
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    align-items: center;
+  }
+  
+  /* Style the form elements */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 94%;
+  }
+  .custom-input {
+    width: calc(100% - 1.5em); /* Make room for the currency symbol on the right */
+  }
+  .reason-input{
+    padding: 29px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 84%;
+    height: 20px;
+    word-wrap: normal;
+  }
+  
+  /* Position the currency symbol to the right of the input */
+  .currency-symbol {
+    position: absolute;
+    right: 0;
+    top: 50%; /* Vertically center the symbol */
+    transform: translateY(-50%); /* Vertically center the symbol */
+    padding: 0 0.5em; /* Adjust spacing for better appearance */
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 30px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.manager-container {
+    background-color: white;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+}
+
+.request-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.request {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.confirm-button,
+.reject-button {
+    padding: 8px 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.confirm-button {
+    background-color: #28a745;
+    color: white;
+    margin-left: 200px;
+}
+
+.reject-button {
+    background-color: #dc3545;
+    color: white;
+}

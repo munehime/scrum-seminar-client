@@ -156,6 +156,10 @@
   }
   
   
+  .menu-bar:hover .sub-menu-1 {
+    background-color: yellow;
+  }
+  
   .menu-bar ul li:hover .sub-menu-1 {
     display: flex;
     position: absolute;   
@@ -177,7 +181,7 @@
     text-align: left;
     
   }
-  
+ 
   
   
   .custom-style {
